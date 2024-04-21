@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>T-shirt Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <img src="images/tshirt.png" alt="T-shirt" class="tshirt-image">
+    <div class="text-container">
+      <p>Classic Tee</p>
+    </div>
+    <div class="price-tag">
+      <p>$75.00</p>
+    </div>
+    <div class="description">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      </p>
+    </div>
+    <div class="size-text">
+      <p>Size<span class="asterisk">*</span></p>
+    </div>
+    <div class="size-boxes">
+      <div class="size-box" id="small">S</div>
+      <div class="size-box" id="medium">M</div>
+      <div class="size-box" id="large">L</div>
+    </div>
+    <button class="add-to-cart">Add to Cart</button>
+    <div class="cart-text">My Cart</div>
+  </div>
+
+  <!-- Place the cart outside the container -->
+  <div class="cart">
+    <p class="cart-title">Cart</p>
+    <ul class="cart-items">
+      <!-- Cart items will be added dynamically -->
+    </ul>
+    <button class="checkout-button">Checkout</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
